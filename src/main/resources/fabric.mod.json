@@ -12,7 +12,7 @@
 		"sources": "https://github.com/jogg15/Imperium"
 	},
 	"license": "CC0-1.0",
-	"icon": "icon.png",
+	"icon": "assets/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

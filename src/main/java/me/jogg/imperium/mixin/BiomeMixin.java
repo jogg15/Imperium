@@ -1,7 +1,7 @@
 package me.jogg.imperium.mixin;
 
 import me.jogg.imperium.Imperium;
-import me.jogg.imperium.modules.NoWeather;
+import me.jogg.imperium.modules.render.NoWeather;
 import net.minecraft.world.biome.Biome;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

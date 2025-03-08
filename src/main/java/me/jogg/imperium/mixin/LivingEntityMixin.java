@@ -1,8 +1,8 @@
 package me.jogg.imperium.mixin;
 
 import me.jogg.imperium.Imperium;
-import me.jogg.imperium.modules.Jesus;
-import me.jogg.imperium.modules.SuperJump;
+import me.jogg.imperium.modules.movement.Jesus;
+import me.jogg.imperium.modules.movement.SuperJump;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.fluid.FluidState;

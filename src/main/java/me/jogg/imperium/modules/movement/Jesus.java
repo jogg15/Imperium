@@ -1,5 +1,6 @@
-package me.jogg.imperium.modules;
+package me.jogg.imperium.modules.movement;
 
+import me.jogg.imperium.modules.Cheat;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.math.Vec3d;
 

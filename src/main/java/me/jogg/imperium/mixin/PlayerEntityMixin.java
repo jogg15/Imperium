@@ -1,7 +1,7 @@
 package me.jogg.imperium.mixin;
 
 import me.jogg.imperium.Imperium;
-import me.jogg.imperium.modules.Speed;
+import me.jogg.imperium.modules.movement.Speed;
 import net.minecraft.entity.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

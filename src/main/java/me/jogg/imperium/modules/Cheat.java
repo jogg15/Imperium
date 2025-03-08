@@ -9,7 +9,7 @@ import org.lwjgl.glfw.GLFW;
 
 public abstract class Cheat {
     protected boolean enabled = false;
-    public final KeyBinding keyBinding;
+    public final KeyBinding keyBinding;;
 
     public Cheat() {
         this.keyBinding = KeyBindingHelper.registerKeyBinding(new KeyBinding(
@@ -23,6 +23,7 @@ public abstract class Cheat {
                 Imperium.toggle(this.getClass());
         });
     }
+
     public void toggle() {
         this.enabled = !this.enabled;
     }
@@ -37,4 +38,5 @@ public abstract class Cheat {
 
     public void tick() { }
     public void postTick() { }
+
 }

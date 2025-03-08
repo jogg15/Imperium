@@ -1,7 +1,7 @@
 package me.jogg.imperium.mixin;
 
 import me.jogg.imperium.Imperium;
-import me.jogg.imperium.modules.Step;
+import me.jogg.imperium.modules.movement.Step;
 import net.minecraft.entity.Entity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

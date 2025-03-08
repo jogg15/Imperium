@@ -1,7 +1,7 @@
 package me.jogg.imperium.mixin;
 
 import me.jogg.imperium.Imperium;
-import me.jogg.imperium.modules.FullBright;
+import me.jogg.imperium.modules.render.FullBright;
 import net.minecraft.client.render.LightmapTextureManager;
 import net.minecraft.world.dimension.DimensionType;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,6 +1,11 @@
 package me.jogg.imperium;
 
 import me.jogg.imperium.modules.*;
+import me.jogg.imperium.modules.combat.KillAura;
+import me.jogg.imperium.modules.movement.*;
+import me.jogg.imperium.modules.render.FullBright;
+import me.jogg.imperium.modules.render.NoWeather;
+import me.jogg.imperium.modules.render.XRay;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
@@ -23,6 +28,7 @@ public class Imperium implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        // MODULES
         CHEATS.add(new FullBright());
         CHEATS.add(new Jesus());
         CHEATS.add(new XRay());
@@ -30,6 +36,9 @@ public class Imperium implements ModInitializer {
         CHEATS.add(new Speed());
         CHEATS.add(new NoWeather());
         CHEATS.add(new SuperJump());
+        CHEATS.add(new NoFall());
+        CHEATS.add(new Flight());
+        CHEATS.add(new KillAura();
 
 
         ClientTickEvents.START_CLIENT_TICK.register(client ->
@@ -131,6 +140,11 @@ public class Imperium implements ModInitializer {
     }
 
     public static Text getTranslatableText(Class<? extends Cheat> cheatClass) {
-        return Text.translatable("cheats." + cheatClass.getSimpleName().toLowerCase());
+        if (cheatClass == null) {
+            return Text.translatable("cheats.unknown");
+        }
+
+        String translationKey = "cheats." + cheatClass.getSimpleName().replaceAll("([a-z])([A-Z])", "$1_$2").toLowerCase();
+        return Text.translatable(translationKey);
     }
 }

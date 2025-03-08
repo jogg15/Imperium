@@ -1,8 +1,8 @@
 package me.jogg.imperium.mixin;
 
 import me.jogg.imperium.Imperium;
-import me.jogg.imperium.modules.Jesus;
-import me.jogg.imperium.modules.XRay;
+import me.jogg.imperium.modules.movement.Jesus;
+import me.jogg.imperium.modules.render.XRay;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ShapeContext;
