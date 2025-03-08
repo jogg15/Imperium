@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "imperium",
+	"version": "${version}",
+	"name": "Imperium",
+	"description": "A journey to become a Cheat Client",
+	"authors": [
+		"jogg15"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/jogg15/Imperium"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/imperium/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.jogg.imperium.Imperium"
+		],
+		"fabric-datagen": [
+			"me.jogg.imperium.ImperiumDataGenerator"
+		],
+		"client": [
+			"me.jogg.imperium.ImperiumClient"
+		]
+	},
+	"mixins": [
+		"imperium.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
