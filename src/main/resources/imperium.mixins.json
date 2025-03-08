@@ -3,7 +3,17 @@
 	"package": "me.jogg.imperium.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"AbstractBlockStateMixin",
+		"BiomeMixin",
+		"ClientConnectionMixin",
+		"EntityMixin",
+		"ExampleMixin",
+		"GameMenuScreenMixin",
+		"LightmapTextureManagerMixin",
+		"LivingEntityMixin",
+		"PlayerEntityMixin",
+		"PlayerMoveC2SPacketAccessor",
+		"WorldMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

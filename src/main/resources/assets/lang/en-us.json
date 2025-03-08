@@ -1,0 +1,31 @@
+{
+  "cheats.title": "Imperium",
+
+  "cheats.flight": "Flight",
+  "cheats.nofall": "NoFall",
+  "cheats.jesus": "Jesus",
+  "cheats.boatfly": "BoatFly",
+  "cheats.speed": "Speed",
+  "cheats.step": "Step",
+  "cheats.superjump": "SuperJump",
+  "cheats.fullbright": "FullBright",
+  "cheats.noweather": "NoWeather",
+  "cheats.xray": "X-Ray",
+  "cheats.antihunger": "AntiHunger",
+  "cheats.killaura": "KillAura",
+
+  "category.cheats": "cheats",
+
+  "key.cheats.flight": "Toggle Flight",
+  "key.cheats.nofall": "Toggle NoFall",
+  "key.cheats.jesus": "Toggle Jesus",
+  "key.cheats.boatfly": "Toggle BoatFly",
+  "key.cheats.speed": "Toggle Speed",
+  "key.cheats.step": "Toggle Step",
+  "key.cheats.superjump": "Toggle SuperJump",
+  "key.cheats.fullbright": "Toggle FullBright",
+  "key.cheats.noweather": "Toggle NoWeather",
+  "key.cheats.xray": "Toggle X-Ray",
+  "key.cheats.antihunger": "Toggle AntiHunger",
+  "key.cheats.killaura": "Toggle KillAura"
+}
